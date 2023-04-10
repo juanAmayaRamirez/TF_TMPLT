@@ -1,5 +1,6 @@
 # Local .terraform directories
 **/.terraform/*
+.python-version
 # terraform plan
 tfplan
 
