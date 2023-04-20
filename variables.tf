@@ -15,3 +15,7 @@ variable "profile" {
 variable "env_name" {
   description = "The name of the workspace to use for this deployment."
 }
+variable "backend_bucket" {
+  type = string
+  description = "the bucket for the backend aws configuration"
+}
