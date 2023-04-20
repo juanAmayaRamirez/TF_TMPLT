@@ -1,8 +1,2 @@
-terraform {
-  backend "s3" {}
-}
-
-provider "aws" {
-    region = var.aws_region
-    profile = var.profile
-}
+# put all resoruces needed here
+# resource "x" "xx"{}
